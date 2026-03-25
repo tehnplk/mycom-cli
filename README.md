@@ -8,6 +8,17 @@ CLI app ด้วย Node.js สำหรับจัดการไฟล์แ
 npm install
 ```
 
+## Security note (Excel)
+
+ถ้าต้องการปิดความสามารถอ่าน Excel ชั่วคราวในเครื่องเสี่ยง ให้ตั้งค่า:
+
+```bash
+# PowerShell
+$env:MYCOM_DISABLE_EXCEL = "1"
+```
+
+เมื่อปิดแล้ว `mycom read excel ...` จะไม่ทำงาน แต่คำสั่งอื่น (รวมถึง CSV) ใช้งานได้ตามปกติ
+
 ## ใช้งาน
 
 เรียกตรงด้วย Node:
