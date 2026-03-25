@@ -14,5 +14,8 @@
     "nodejs",
     "filesystem"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
 }
