@@ -44,6 +44,10 @@ mycom create folder <path>
 mycom read csv <path> [separator|auto]
 mycom read excel <path> [sheetName]
 mycom find <file|folder|all> <keyword> [startPath]
+mycom docx create <path.docx> [content]
+mycom docx edit <path.docx> <content>
+mycom docx append <path.docx> <content>
+mycom docx replace <path.docx> <search> <replace>
 mycom pwd
 mycom text create <path> [content]
 mycom text write <path> <content>
@@ -71,6 +75,10 @@ mycom read excel data/report.xlsx Sheet1
 mycom find file test ./
 mycom find folder temp ./
 mycom find all readme ./
+mycom docx create docs/report.docx hello
+mycom docx edit docs/report.docx hello world
+mycom docx append docs/report.docx summary section
+mycom docx replace docs/report.docx summary conclusion
 mycom text create docs/note.txt hello
 mycom text write docs/note.txt hello world
 mycom text edit docs/note.txt world codex
