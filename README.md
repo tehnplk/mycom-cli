@@ -49,6 +49,7 @@ mycom docx read <path.docx>
 mycom docx edit <path.docx> <content>
 mycom docx append <path.docx> <content>
 mycom docx replace <path.docx> <search> <replace>
+mycom docx table <path.docx> <row1col1|row1col2;row2col1|row2col2>
 mycom pwd
 mycom text create <path> [content]
 mycom text write <path> <content>
@@ -81,6 +82,7 @@ mycom docx read docs/report.docx
 mycom docx edit docs/report.docx hello world
 mycom docx append docs/report.docx summary section
 mycom docx replace docs/report.docx summary conclusion
+mycom docx table docs/report.docx "name|score;ann|90;bob|88"
 mycom text create docs/note.txt hello
 mycom text write docs/note.txt hello world
 mycom text edit docs/note.txt world codex
